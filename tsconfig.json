@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "commonjs",
+    "lib": ["es2017"],
+    "declaration": true,
+    "outDir": "dist",
+    "removeComments": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "typeRoots": ["node_modules/@types", "src/types"]
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist", "test"],
+  "compileOnSave": true
+}

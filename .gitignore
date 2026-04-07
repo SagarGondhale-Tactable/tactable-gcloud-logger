@@ -1,0 +1,11 @@
+.idea
+.DS_Store
+*.log
+.env
+node_modules
+test/build
+dist/test
+dist/**/*.test.*
+dist/*.test.*
+dist/src
+genres.json
